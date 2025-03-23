@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 700px;
+    background: white;
+    box-shadow: 0 0 15px #ccc;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Buttons Styling */
+button {
+    background: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Speed Display */
+#speedDisplay {
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Animation */
+#animation {
+    height: 250px;        /* Bigger animation size */
+    line-height: 250px;
+    font-size: 180px;     /* Larger icons */
+    transition: transform 1s;
+}
+
+/* Comparison Message */
+#comparison {
+    font-size: 22px;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Popup for Sharing Options */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 12px;
+    z-index: 10;
+    text-align: center;
+}
+
+.popup button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background: #28a745;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.popup button:hover {
+    background: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+#closePopup {
+    background: #ff6347;
+}

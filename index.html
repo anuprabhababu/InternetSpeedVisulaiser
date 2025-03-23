@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Internet Speed Visualizer</h1>
+
+        <!-- Speed Test -->
+        <button id="startTest">Start Speed Test</button>
+        <div id="speedDisplay">Speed: -- Mbps</div>
+
+        <!-- Animation Display -->
+        <div id="animation"></div>
+        <div id="comparison"></div>
+
+        <!-- Share Button -->
+        <button id="shareBtn" disabled>Share</button>
+
+        <!-- Popup with sharing options -->
+        <div id="popup" class="popup hidden">
+            <h3>Share Your Speed</h3>
+            <button id="shareWhatsApp">WhatsApp</button>
+            <button id="shareTelegram">Telegram</button>
+            <button id="shareTwitter">Twitter</button>
+            <button id="shareFacebook">Facebook</button>
+            <button id="shareSMS">SMS</button>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
